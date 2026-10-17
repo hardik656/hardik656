@@ -1,17 +1,11 @@
-# Hi, I'm Hardik 👋
+### Hardik Gumber
 
-Python backend engineer (FastAPI) building **fintech and trading systems**. Based in Delhi, open to relocating to the EU or working remotely.
+Python backend engineer in New Delhi, working mostly on trading and fintech systems.
 
-Built **[QuantProof](https://quantproof.net)** solo: a live API that stress-tests trading backtests (Deflated Sharpe, Monte Carlo, walk-forward, 5 crash simulations) and returns a 0–100 score · 400+ users in 2026
- Python · FastAPI · Pydantic · SQLAlchemy 2 / PostgreSQL / Alembic · pandas / NumPy · pytest · Docker · GitHub Actions
- Broker & payment integrations: Alpaca, Interactive Brokers, Zerodha Kite, TradingView webhooks, Razorpay, Paddle
- Running my own algorithmic trading systems on Indian and US markets since 2021
-🇩🇪 Learning German
+- **[QuantProof](https://quantproof.net)**: a FastAPI service I built and run that scores trading backtests with 29 statistical checks and 5 crash simulations. It has broker imports (Alpaca, IBKR, Zerodha Kite, TradingView) and Razorpay/Paddle billing. ([code](https://github.com/hardik656/quantproof))
+- **[lifepilot-backend](https://github.com/hardik656/lifepilot-backend)**: an API plus a background worker, SQLAlchemy/Postgres, and a paper-trading signal worker on Alpaca.
+- Upstream: a fix for up/down capture with unpaired observations in [empyrical-reloaded](https://github.com/stefan-jansen/empyrical-reloaded/pull/112) (open).
+
+Usually: Python, FastAPI, PostgreSQL, pandas/NumPy, pytest, Docker, GitHub Actions.
+
 hgumber43@gmail.com · [LinkedIn](https://linkedin.com/in/hardik-gumber)
-
-### Featured
-
-| Project | What it shows |
-|---|---|
-| [quantproof](https://github.com/hardik656/quantproof) | FastAPI service split into routers/services, 66 pytest tests, CI (ruff · mypy · coverage · Postgres migrations · Docker), signature-verified payment webhooks, FIFO lot matching across 6 broker formats |
-| [lifepilot-backend](https://github.com/hardik656/lifepilot-backend) | API + background-worker architecture, SQLAlchemy/Postgres, LightGBM trading signals on Alpaca paper, Sentry, CI |
